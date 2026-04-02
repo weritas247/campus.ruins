@@ -6,4 +6,4 @@
 
 | 디렉토리 | 설명 |
 |----------|------|
-| `x-launchpad/` | 브라우저 기반 멀티세션 터미널 — xterm.js + WebSocket + node-pty ([repo](https://github.com/weritas247/x-launchpad)) |
+| [`x-launchpad/`](https://github.com/weritas247/x-launchpad) | 브라우저 기반 멀티세션 터미널 — xterm.js + WebSocket + node-pty |
