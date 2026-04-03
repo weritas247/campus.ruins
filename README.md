@@ -1,5 +1,7 @@
 # 🏚️ Ruins
 
+> 🏫 [campus](https://github.com/weritas247/campus) 하위 프로젝트
+
 중단되었거나 보관 중인 프로젝트 아카이브.
 
 ## 구조
