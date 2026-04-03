@@ -1,5 +1,0 @@
-{"type":"server-started","port":50841,"host":"127.0.0.1","url_host":"localhost","url":"http://localhost:50841","screen_dir":"/Users/matthew_team42/dev/x-launchpad/.superpowers/brainstorm/73160-1774420046"}
-{"type":"screen-added","file":"/Users/matthew_team42/dev/x-launchpad/.superpowers/brainstorm/73160-1774420046/tab-style.html"}
-{"source":"user-event","type":"click","text":"⎇\n          x-launchpad\n          main\n          ✕\n        \n        \n        \n          브랜치\n          Git Status\n        \n        \n        \n          \n            ●\n            feat: 파일 프리뷰 확대/축소 기능 추가\n          \n          \n            ●\n            fix: 탭 DnD 그룹화 불가 버그 수정\n          \n          \n            ●\n            feat: xterm-addon-unicode11 의존성 추가\n          \n        \n      \n    \n    \n      A. 타이틀바 아래 탭 바\n      타이틀바와 콘텐츠 사이에 독립적인 탭 바 영역. VS Code 패널 스타일. 타이틀바 버튼(Pull, Push, GitHub 등)은 그대로 유지.","choice":"a","id":null,"timestamp":1774420116168}
-{"type":"screen-added","file":"/Users/matthew_team42/dev/x-launchpad/.superpowers/brainstorm/73160-1774420046/waiting.html"}
-{"type":"server-stopped","reason":"idle timeout"}
