@@ -1,0 +1,121 @@
+<h2>탭 UI 스타일 선택</h2>
+<p class="subtitle">Git Graph 모달에 탭을 추가하는 방식을 골라주세요</p>
+
+<div class="cards">
+  <!-- Option A -->
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div style="background:#1e1e2e;border-radius:8px;overflow:hidden;font-family:monospace;font-size:11px;color:#cdd6f4;">
+        <!-- Titlebar -->
+        <div style="display:flex;align-items:center;padding:8px 12px;background:linear-gradient(135deg,#181825,#1e1e2e);border-bottom:1px solid #313244;">
+          <span style="color:#00ffe5;margin-right:6px;">⎇</span>
+          <span style="font-weight:600;">x-launchpad</span>
+          <span style="background:#00ffe5;color:#1e1e2e;padding:1px 8px;border-radius:10px;margin-left:8px;font-size:10px;font-weight:700;">main</span>
+          <span style="margin-left:auto;color:#6c7086;">✕</span>
+        </div>
+        <!-- Tab bar below titlebar -->
+        <div style="display:flex;border-bottom:1px solid #313244;background:#181825;">
+          <div style="padding:6px 16px;border-bottom:2px solid #00ffe5;color:#00ffe5;font-weight:600;font-size:10px;">브랜치</div>
+          <div style="padding:6px 16px;color:#6c7086;font-size:10px;">Git Status</div>
+        </div>
+        <!-- Content area -->
+        <div style="padding:12px;min-height:80px;">
+          <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px;">
+            <span style="color:#a6e3a1;">●</span>
+            <span style="font-size:10px;">feat: 파일 프리뷰 확대/축소 기능 추가</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px;">
+            <span style="color:#89b4fa;">●</span>
+            <span style="font-size:10px;">fix: 탭 DnD 그룹화 불가 버그 수정</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:6px;">
+            <span style="color:#f9e2af;">●</span>
+            <span style="font-size:10px;">feat: xterm-addon-unicode11 의존성 추가</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A. 타이틀바 아래 탭 바</h3>
+      <p>타이틀바와 콘텐츠 사이에 독립적인 탭 바 영역. VS Code 패널 스타일. 타이틀바 버튼(Pull, Push, GitHub 등)은 그대로 유지.</p>
+    </div>
+  </div>
+
+  <!-- Option B -->
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div style="background:#1e1e2e;border-radius:8px;overflow:hidden;font-family:monospace;font-size:11px;color:#cdd6f4;">
+        <!-- Titlebar with integrated tabs -->
+        <div style="display:flex;align-items:center;padding:0;background:linear-gradient(135deg,#181825,#1e1e2e);border-bottom:1px solid #313244;">
+          <div style="display:flex;align-items:center;">
+            <div style="padding:8px 14px;border-bottom:2px solid #00ffe5;color:#00ffe5;font-weight:600;font-size:10px;display:flex;align-items:center;gap:4px;">
+              <span>⎇</span> 브랜치
+            </div>
+            <div style="padding:8px 14px;color:#6c7086;font-size:10px;">Git Status</div>
+          </div>
+          <span style="background:#00ffe5;color:#1e1e2e;padding:1px 8px;border-radius:10px;margin-left:8px;font-size:10px;font-weight:700;">main</span>
+          <span style="margin-left:auto;padding-right:12px;color:#6c7086;">✕</span>
+        </div>
+        <!-- Content area -->
+        <div style="padding:12px;min-height:80px;">
+          <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px;">
+            <span style="color:#a6e3a1;">●</span>
+            <span style="font-size:10px;">feat: 파일 프리뷰 확대/축소 기능 추가</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px;">
+            <span style="color:#89b4fa;">●</span>
+            <span style="font-size:10px;">fix: 탭 DnD 그룹화 불가 버그 수정</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:6px;">
+            <span style="color:#f9e2af;">●</span>
+            <span style="font-size:10px;">feat: xterm-addon-unicode11 의존성 추가</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B. 타이틀바 통합 탭</h3>
+      <p>타이틀바 왼쪽에 탭 버튼이 바로 위치. 공간 절약. 타이틀바 높이 하나로 탭과 액션 버튼 모두 포함.</p>
+    </div>
+  </div>
+
+  <!-- Option C -->
+  <div class="card" data-choice="c" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div style="background:#1e1e2e;border-radius:8px;overflow:hidden;font-family:monospace;font-size:11px;color:#cdd6f4;">
+        <!-- Titlebar -->
+        <div style="display:flex;align-items:center;padding:8px 12px;background:linear-gradient(135deg,#181825,#1e1e2e);border-bottom:1px solid #313244;">
+          <span style="color:#00ffe5;margin-right:6px;">⎇</span>
+          <span style="font-weight:600;">x-launchpad</span>
+          <span style="background:#00ffe5;color:#1e1e2e;padding:1px 8px;border-radius:10px;margin-left:8px;font-size:10px;font-weight:700;">main</span>
+          <span style="margin-left:auto;color:#6c7086;">✕</span>
+        </div>
+        <!-- Content with left side tabs -->
+        <div style="display:flex;min-height:100px;">
+          <div style="display:flex;flex-direction:column;background:#181825;border-right:1px solid #313244;width:36px;align-items:center;padding-top:8px;gap:8px;">
+            <div style="width:24px;height:24px;border-radius:4px;background:#00ffe520;display:flex;align-items:center;justify-content:center;font-size:10px;color:#00ffe5;border-left:2px solid #00ffe5;">⎇</div>
+            <div style="width:24px;height:24px;border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:10px;color:#6c7086;">◉</div>
+          </div>
+          <div style="padding:12px;flex:1;">
+            <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px;">
+              <span style="color:#a6e3a1;">●</span>
+              <span style="font-size:10px;">feat: 파일 프리뷰 확대/축소 기능 추가</span>
+            </div>
+            <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px;">
+              <span style="color:#89b4fa;">●</span>
+              <span style="font-size:10px;">fix: 탭 DnD 그룹화 불가 버그 수정</span>
+            </div>
+            <div style="display:flex;align-items:center;gap:6px;">
+              <span style="color:#f9e2af;">●</span>
+              <span style="font-size:10px;">feat: xterm-addon-unicode11 의존성 추가</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C. 좌측 아이콘 탭</h3>
+      <p>왼쪽에 세로 아이콘 탭 바. VS Code 사이드바 아이콘 스타일. 콘텐츠 영역이 약간 줄어듦.</p>
+    </div>
+  </div>
+</div>
