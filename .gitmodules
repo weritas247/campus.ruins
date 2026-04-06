@@ -1,0 +1,4 @@
+[submodule "media-hub"]
+	path = media-hub
+	url = https://github.com/weritas247/media-hub.git
+	branch = main
